@@ -611,8 +611,8 @@ export default function Settings() {
             <p className="text-sm">Version</p>
             <p className="text-xs text-text-muted">{APP_VERSION}</p>
           </div>
-          <SettingsRow label="Privacy Policy" href="https://stacktrackergold.com/privacy" onExternalClick={externalLink.openExternal} />
-          <SettingsRow label="Terms of Service" href="https://stacktrackergold.com/terms" onExternalClick={externalLink.openExternal} />
+          <SettingsRow label="Privacy Policy" href="https://troystack.com/privacy" onExternalClick={externalLink.openExternal} />
+          <SettingsRow label="Terms of Service" href="https://troystack.com/terms" onExternalClick={externalLink.openExternal} />
         </SettingsSection>
 
         {/* Links */}
@@ -625,7 +625,7 @@ export default function Settings() {
           />
           <SettingsRow
             label="Visit Website"
-            href="https://stacktrackergold.com"
+            href="https://troystack.com"
             onExternalClick={externalLink.openExternal}
           />
         </SettingsSection>
@@ -641,7 +641,7 @@ export default function Settings() {
 
         {/* Footer */}
         <div className="text-center text-text-muted text-xs mt-6 mb-4">
-          <p>Stack Tracker Gold v{APP_VERSION}</p>
+          <p>TroyStack v{APP_VERSION}</p>
           <p className="mt-1">Made with care for stackers everywhere</p>
         </div>
       </motion.div>

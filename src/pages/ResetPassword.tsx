@@ -55,8 +55,8 @@ export default function ResetPassword() {
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
         <div className="max-w-md w-full text-center">
-          <img src="/icon-512.png" alt="Stack Tracker Gold" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
-          <h1 className="text-3xl font-bold text-gold mb-4">Stack Tracker Gold</h1>
+          <img src="/icon-512.png" alt="TroyStack" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
+          <h1 className="text-3xl font-bold text-gold mb-4">TroyStack</h1>
           <p className="text-text-muted">Verifying reset link...</p>
         </div>
       </div>
@@ -69,8 +69,8 @@ export default function ResetPassword() {
       <div className="min-h-screen flex items-center justify-center p-4">
         <div className="max-w-md w-full">
           <div className="text-center mb-8">
-            <img src="/icon-512.png" alt="Stack Tracker Gold" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
-            <h1 className="text-3xl font-bold text-gold mb-2">Stack Tracker Gold</h1>
+            <img src="/icon-512.png" alt="TroyStack" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
+            <h1 className="text-3xl font-bold text-gold mb-2">TroyStack</h1>
           </div>
           <div className="bg-surface border border-border rounded-lg p-6 text-center">
             <div className="w-12 h-12 mx-auto rounded-full bg-red-500/10 flex items-center justify-center mb-4">
@@ -99,8 +99,8 @@ export default function ResetPassword() {
       <div className="max-w-md w-full">
         {/* Logo/Header */}
         <div className="text-center mb-8">
-          <img src="/icon-512.png" alt="Stack Tracker Gold" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
-          <h1 className="text-3xl font-bold text-gold mb-2">Stack Tracker Gold</h1>
+          <img src="/icon-512.png" alt="TroyStack" className="w-16 h-16 mx-auto mb-3 rounded-xl" />
+          <h1 className="text-3xl font-bold text-gold mb-2">TroyStack</h1>
           <p className="text-text-muted">Set your new password</p>
         </div>
 
