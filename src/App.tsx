@@ -12,6 +12,10 @@ import Auth from './pages/Auth';
 import ResetPassword from './pages/ResetPassword';
 import StackSignal from './pages/StackSignal';
 import CompareDealers from './pages/CompareDealers';
+import VaultWatch from './pages/VaultWatch';
+import SpeculationCalculator from './pages/SpeculationCalculator';
+import Developers from './pages/Developers';
+import DeveloperKeys from './pages/DeveloperKeys';
 
 function App() {
   return (
@@ -29,7 +33,11 @@ function App() {
               <Route path="portfolio" element={<Navigate to="/stack" replace />} />
               <Route path="analytics" element={<Analytics />} />
               <Route path="signal" element={<StackSignal />} />
+              <Route path="vault" element={<VaultWatch />} />
               <Route path="dealers" element={<CompareDealers />} />
+              <Route path="speculate" element={<SpeculationCalculator />} />
+              <Route path="developers" element={<Developers />} />
+              <Route path="developers/keys" element={<DeveloperKeys />} />
               <Route path="settings" element={<Settings />} />
             </Route>
           </Routes>
