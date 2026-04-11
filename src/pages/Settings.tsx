@@ -634,7 +634,7 @@ export default function Settings() {
         <SettingsSection title="Support">
           <SettingsRow
             label="Contact Support"
-            href="mailto:support@mancinitechsolutions.com"
+            href="mailto:support@troystack.com"
             onExternalClick={externalLink.openExternal}
           />
         </SettingsSection>
