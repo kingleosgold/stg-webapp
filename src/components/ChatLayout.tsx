@@ -55,7 +55,7 @@ const PRIMARY_NAV: NavItemDef[] = [
 ];
 
 const DEVELOPER_NAV: NavItemDef[] = [
-  { to: '/developers', label: 'API Docs', icon: <FileText size={18} /> },
+  { to: '/developers', label: 'API Docs', icon: <FileText size={18} />, end: true },
   { to: '/developers/keys', label: 'API Keys', icon: <Key size={18} /> },
 ];
 
